@@ -1,0 +1,148 @@
+
+
+   
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+
+  h1, h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00adb5;
+  }
+  
+ 
+  table {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #222831;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #393e46;
+  }
+  
+  th {
+    background-color: #00adb5;
+    color: white;
+    font-size: 18px;
+  }
+  
+  td {
+    font-size: 16px;
+  }
+  
+ 
+  tr:nth-child(even) {
+    background-color: #2e2e3a;
+  }
+  
+  tr:hover {
+    background-color: #00adb5;
+    color: #222831;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ 
+  .status {
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .status.on-time {
+    background: #28a745;
+    color: white;
+  }
+  
+  .status.delayed {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .status.boarding {
+    background: #ffc107;
+    color: black;
+  }
+  
+  .status.departed {
+    background: #17a2b8;
+    color: white;
+  }
+  
+ 
+  .details-container {
+    width: 80%;
+    max-width: 600px;
+    background: #a7c5f1;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(204, 176, 176, 0.2);
+  }
+  
+  .details-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .details-container strong {
+    color: #00adb5;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: #00adb5;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .back-button:hover {
+    background: #008c9e;
+  }
+  
+ 
+  .error {
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  
+    .details-container {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
