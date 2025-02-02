@@ -1,8 +1,5 @@
 # Getting Started with Create React App
 
-# The Flight Status Tracker is a real-time flight information dashboard built with React and TypeScript.
-# The application fetches flight data from a mock API, updates flight statuses at regular intervals, 
-# it provides detailed information for each flight.
 This project was bootstrapped with [Create React App]((https://github.com/kamrankhan0001/flight-board-task)).
 
 ## Available Scripts
